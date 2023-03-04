@@ -1,0 +1,16 @@
+#logoHeaderWhite:hover {
+  cursor: pointer;
+}
+
+#logoHeaderWhite,
+#leftDingen,
+#rightDingen {
+  transition: all 0.3s linear;
+}
+
+#logoHeaderWhite:hover #leftDingen {
+  transform: matrix(-1, 0, 0, -1, 458.578003, 255.662003);
+}
+#logoHeaderWhite:hover #rightDingen {
+  transform: matrix(-1, 0, 0, -1, 574.826019, 140.996002);
+}

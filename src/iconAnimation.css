@@ -1,0 +1,15 @@
+#blauweiß:hover {
+  cursor: pointer;
+}
+#leftDingens,
+#rightDingens {
+  transition: all 0.5s ease;
+}
+
+#blauweiß:hover #leftDingens {
+  transform: matrix(-1, 0, 0, -1, 132.389996, 290.793015);
+}
+
+#blauweiß:hover #rightDingens {
+  transform: matrix(-1, 0, 0, -1, 454.048004, 290.633995);
+}
